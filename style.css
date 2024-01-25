@@ -1,0 +1,105 @@
+p, button, span, li {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+.title, .subtitle {
+  font-weight: 700;
+}
+
+body {
+  background-color: #E6EFF5;
+}
+
+main {
+  width: 311px;
+  margin: 72px auto 62px auto;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+main article:first-child {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 28px 24px 32px 24px;
+  border-radius: 5px 5px 0 0;
+}
+main article:first-child .title {
+  color: #2AB3B1;
+  font-size: 20px;
+  letter-spacing: -0.25px;
+  margin-bottom: 24px;
+}
+main article:first-child .subtitle {
+  color: #C0DF33;
+  font-size: 15px;
+  line-height: 20px; /* 133.333% */
+  letter-spacing: -0.187px;
+  margin-bottom: 16px;
+}
+main article:first-child .text {
+  color: #9AA7BE;
+  font-size: 14px;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: -0.175px;
+}
+main article:last-child {
+  background-color: #2AB3B1;
+  display: flex;
+  flex-direction: column;
+}
+main article:last-child section {
+  padding: 24px;
+}
+main article:last-child section .title {
+  color: #FFF;
+  font-size: 18px;
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+main article:last-child section .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+main article:last-child section .price p {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-right: 11px;
+}
+main article:last-child section .price span {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+main article:last-child section:first-child .text {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  margin-bottom: 26px;
+}
+main article:last-child section:first-child button {
+  width: 263px;
+  height: 48px;
+  border-radius: 5px;
+  background: #C0DF33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+main article:last-child section:last-child {
+  background-color: #4ABFBD;
+}
+main article:last-child section:last-child li {
+  color: #D2EFEF;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
