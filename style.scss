@@ -2,10 +2,7 @@ p, button, span, li {
   font-family: "Karla", sans-serif;
   font-weight: 400;
 }
-.title, .subtitle {
-  font-weight: 700;
-}
-body {
+body, main {
   background-color: #E6EFF5;
 }
 main {
@@ -40,7 +37,6 @@ main {
       }
     }
     &:last-child {
-      background-color: #2AB3B1;
       display: flex;
       flex-direction: column;
       section {
@@ -71,6 +67,7 @@ main {
           }
         }
         &:first-child {
+          background-color: #2AB3B1;
           .text {
             color: #FFF;
             font-size: 16px;
@@ -96,6 +93,51 @@ main {
           li {
             color: #D2EFEF;
             margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.title, .subtitle {
+  font-weight: 700;
+}
+@media (min-width: 1440px) {
+  main {
+    width: 635px;
+    margin-top: 163px;
+    margin-bottom: 162px;
+    border-radius: 8px;
+    article {
+      &:first-child {
+        padding: 40px;
+        border-radius: 8px 8px 0 0;
+        .title {
+          font-size: 24px;
+          letter-spacing: -0.3px;
+        }
+        .subtitle {
+          font-size: 18px;
+          letter-spacing: -0.225px;
+          margin-bottom: 11px;
+        }
+        .text {
+          font-size: 16px;
+          letter-spacing: -0.2px;
+        }
+      }
+      &:last-child {
+        flex-direction: row;
+        border-radius: 0 0 8px 8px;
+        background-color: #E6EFF5;
+        section {
+          padding: 40px;
+          width: 50%;
+          &:first-child {
+            border-radius: 0 0 0 8px;
+          }
+          &:last-child {
+            border-radius: 0 0 8px 0;
           }
         }
       }
